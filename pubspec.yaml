@@ -1,0 +1,42 @@
+name: hungry_resturant
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for 
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.1
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+ 
+  flutter_bloc: ^9.1.1
+  dio: ^5.9.1
+  shared_preferences: ^2.5.4
+  equatable: ^2.0.5
+  gap: ^3.0.1
+  
+
+ 
+  flutter_lints: ^6.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - Media/
+
+  
